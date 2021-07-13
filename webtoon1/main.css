@@ -1,0 +1,255 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+body{
+    margin: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.home_header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 5000;
+    background: #000;
+    width: 100%;
+    height: 100px;
+}
+
+.home_header .logo{
+    /* border: 1px solid blue; */
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 15px;
+   /* border: 1px solid skyblue; */
+   /* vertical-align: top; */
+}
+
+.home_header .logo > a{
+    /* vertical-align: top; */
+    display: inline-block;
+    /* margin: 0 auto; */
+    /* padding-left: 300px ; */
+    width: 70px;
+    height: 70px;
+    background: url(../img/toroarty.svg) no-repeat;
+}
+
+
+.home ul{
+    /* vertical-align: top; */
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+    padding:0;
+    margin:0;
+    /* margin-left: 400px; */
+    right: 0;
+    
+}
+
+.home ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 70px 0 40px;
+    font-weight: 700;
+    /* vertical-align: top; */
+    /* text-decoration: none; */
+}
+
+
+.home ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.home ul li a:visited{
+    color: white;
+}
+
+.home ul li a:hover{
+    color:orange;
+}
+
+
+/* 헤더 */
+
+.slide{
+    padding-top: 100px;
+}
+
+.bxslider li{
+    display: block;
+    text-align: center;
+    background: black;
+    width: 400px;
+}
+
+.bxslider li img{
+    /* width: 600px; */
+    height: 700px;
+}
+
+.bx-caption{
+    width: 585px;
+    background: #ddd;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    height: 100px;
+    text-align: center;
+    font-family: 'NanumSquare', sans-serif;
+    line-height: 100px;
+    transform: translateX(-50%);
+    animation-name: opa;
+    animation-duration: 3s;
+    opacity: 0;
+}
+
+@keyframes opa{
+    30%{
+        opacity: 1;
+    }
+
+    60%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+.bx-pager{
+    line-height: 100px;
+    /* border: 1px solid blue; */
+    height: 100px;
+    text-align: center;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 700;
+}
+
+.bx-controls-direction{
+    width: 100%;
+    position: relative;
+    top: -300px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.bx-next{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    right: 20px;
+    font-size: 60px;
+}
+
+.bx-next:hover{
+    color: orange;
+}
+
+.bx-prev{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    left: 20px;
+    font-size: 60px;
+}
+
+
+.bx-prev:hover{
+    color: orange;
+}
+
+
+/* .bx-wrapper {
+    display: inline-block;
+    overflow-x: hidden;
+    width: 100%;
+} 
+
+.bx-controls{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top:245px;
+    overflow-x: hidden;}
+
+
+.bx-prev{
+    position: absolute;
+    color: white;
+    top:65px;
+    width: 50px;
+    height: 50px;
+    left: 13px;
+    opacity: 20%;
+    background: url(../img/arrow_back_ios-white-18dp.svg) no-repeat center center;    
+    background-size: cover;
+}
+
+.bx-prev:hover{
+    opacity: 1;
+}
+
+.bx-prev::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: -70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background: black;
+    filter: blur(5px); 
+    -webkit-filter: blur(6px); 
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    opacity: 20%;
+    z-index: 399;
+}
+
+.bx-next{
+   
+    position: absolute;
+    top:65px;
+    color: white;
+    right: 0;
+    display: inline-block;
+    opacity: 20%;
+    width: 50px;
+    height: 50px;
+    background: url(../img/arrow_forward_ios-white-18dp.svg) no-repeat center center;    
+    background-size: cover;
+    z-index: 1000;
+}
+
+.bx-next:hover{
+    opacity: 1;
+}
+
+.bx-next::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -50px;
+    right: -70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background: black;
+    filter: blur(5px); 
+    -webkit-filter: blur(6px); 
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    opacity: 20%;
+    z-index: 399;
+} */

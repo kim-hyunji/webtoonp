@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+p{
+    font-size: 13px;
+    line-height: 25px;
+}
+
+
+.home_header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 5000;
+    background: #000;
+    width: 100%;
+    height: 100px;
+}
+
+.home_header .logo{
+    /* border: 1px solid blue; */
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 15px;
+   /* border: 1px solid skyblue; */
+   /* vertical-align: top; */
+}
+
+.home_header .logo > a{
+    /* vertical-align: top; */
+    display: inline-block;
+    /* margin: 0 auto; */
+    /* padding-left: 300px ; */
+    width: 70px;
+    height: 70px;
+    background: url(../img/toroarty.svg) no-repeat;
+}
+
+
+.home ul{
+    /* vertical-align: top; */
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+    padding:0;
+    margin:0;
+    /* margin-left: 400px; */
+    right: 0;
+    
+}
+
+.home ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 70px 0 40px;
+    font-weight: 700;
+    /* vertical-align: top; */
+    /* text-decoration: none; */
+}
+
+
+.home ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.home ul li a:visited{
+    color: white;
+}
+
+.home ul li a:hover{
+    color:orange;
+}
+
+
+/* 헤더 */
+
+section{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+ul li{
+    text-align: left;
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.ul1{
+    /* border: 1px solid red; */
+    width: 25%;
+    display: inline-block;
+}
+
+
+.ul1 span{
+    display: inline-block;
+    width: 80%;
+    height: 20px;
+    background: url(../img/line.svg) no-repeat;
+}
+
+.ul1 li:nth-child(1){
+    margin-bottom: 80px;
+}
+
+.ul1 li h2{
+    margin-bottom: 27px;
+}
+
+
+.ul2{
+    vertical-align: top;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    width: 64%;
+}
+
+.ul2 h2{
+    text-align: left;
+    margin-left: 33px;
+}
+
+.ul2 > span{
+    margin-left: 33px;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background: url(../img/line.svg) no-repeat;
+}
+
+.ul2 li{
+    vertical-align: top;
+    display: inline-block;
+    /* border: 1px solid springgreen; */
+    width: 30%;
+    transition: all .5s;
+    margin-left: 10px;
+}
+
+
+.ul2  li a{
+    /* border: 1px solid green; */
+    display: block;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.ul2 li a span{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    display: inline-block;
+    transform: translate(-200px, -120px);
+}
+
+.ul2 .li1:hover{
+    filter: brightness(.9);
+    background: #ddd;
+    /* opacity: .3; */
+}
+
+.ul2 .li1 span{
+    background: url(../img/sum2.PNG);
+}
+
+.ul2 .li2:hover{
+    filter: brightness(.9);
+    background: #ddd;
+    /* opacity: .3; */
+}
+
+.ul2 .li2 span{
+    background: url(../img/sum5.PNG) no-repeat;
+    background-size: 65%;
+    transform: translate(-50px,-20px);
+}
+
+.ul2 .li3:hover{
+    filter: brightness(.9);
+    background: #ddd;
+    /* opacity: .3; */
+}
+
+.ul2 .li3 span{
+    background: url(../img/sum6.PNG) no-repeat;
+    background-size: 60%;
+    transform: translate(0,0);
+}

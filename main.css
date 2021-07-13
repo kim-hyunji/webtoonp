@@ -1,0 +1,651 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.home_header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 5000;
+    background: #000;
+    width: 100%;
+    height: 100px;
+}
+
+.home_header .logo{
+    /* border: 1px solid blue; */
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 15px;
+   /* border: 1px solid skyblue; */
+   /* vertical-align: top; */
+}
+
+.home_header .logo > a{
+    /* vertical-align: top; */
+    display: inline-block;
+    /* margin: 0 auto; */
+    /* padding-left: 300px ; */
+    width: 70px;
+    height: 70px;
+    background: url(img/toroarty.svg) no-repeat;
+}
+
+
+.home ul{
+    /* vertical-align: top; */
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+    padding:0;
+    margin:0;
+    /* margin-left: 400px; */
+    right: 0;
+    
+}
+
+.home ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 70px 0 40px;
+    font-weight: 700;
+    /* vertical-align: top; */
+    /* text-decoration: none; */
+}
+
+
+.home ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.home ul li a:visited{
+    color: white;
+}
+
+.home ul li a:hover{
+    color:orange;
+}
+
+
+/* 헤더 */
+
+
+#main{
+    padding-top: 70px;
+}
+
+.bublle{
+    /* border: 1px solid red; */
+    /* background-attachment: fixed; */
+    position: relative;
+    width: 350px;
+    height: 300px;
+    left: 50%; transform: translateX(-52%);
+    top: 100px;
+}
+
+.bublle .say{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background: url(img/말풍선.svg) no-repeat;
+    position: absolute;
+    /* top: 20px; */
+}
+
+.bublle p{
+    position: absolute;
+    z-index: 20;
+    font-family: 'NanumSquare', sans-serif;
+    left: 50%; transform: translateX(-50%);
+    top: 80px;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+img{
+    margin-top: 100px;
+}
+
+/* main */
+
+#profile{
+    height: 800px;
+    /* border: 1px solid skyblue; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile_all{
+ position: relative;
+}
+
+.profile_all h1{
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    /* border: 1px solid red; */
+}
+
+.profile_all .profile_al{
+    /* margin-top: 50px; */
+}
+
+
+.profile_all .profile_line{
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    background: url(img/main_line.svg) no-repeat;
+    /* border: 1px solid blue; */
+}
+
+.profile_all .profile_art{
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background: url(img/main2.svg) no-repeat;
+    /* right: 0; */
+    /* border: 1px solid red; */
+    top: 275px;
+    left: 20px;
+}
+
+.profile_text{
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid blueviolet; */
+}
+
+.profile_text ul{
+    padding: 0;
+    display: inline-block;
+}
+
+.profile_text ul li{
+    line-height: 30px;
+    vertical-align: top;
+    display: inline-block;
+    width: 150px;
+    list-style: none;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.profile_text1{
+    /* display: none; */
+    text-align: left;
+    width: 350px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 50%; transform: translateY(-50%);
+    /* transform: translateX(-1000px); */
+}
+
+.profile_text1_title{
+    /* border: 1px solid red; */
+    font-weight: 700;
+}
+
+.profile_text1_title li{
+    margin-bottom: 30px;
+}
+
+.profile_text1_title li:nth-child(4){
+    margin-top: 28px;
+}
+
+.profile_text1_explan{
+    /* border: 1px solid blue; */
+}
+
+.profile_text1_explan li{
+    margin-bottom: 30px;
+}
+
+.profile_text2{
+    /* left: 50%; transform: translateX(-50%); */
+    position: absolute;
+    font-family: 'NanumSquare', sans-serif;
+    width: 420px;
+    top: 200px;
+    /* left: 50%; transform: translateX(-50%); */
+    left: 800px;
+    line-height: 30px;
+    /* display: none; */
+}
+
+.button_all{
+    position: absolute;
+    /* border: 1px solid blue; */
+    /* display: inline-block; */
+    width: 180px;
+    height: 70px;
+    bottom: 40px;
+    right: 80px;
+}
+
+.button{
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 0;
+    /* opacity: 100%; */
+    background: url(img/button.svg) no-repeat center center;
+}
+
+.button2{
+    top: 2px;
+    transform:rotate(180deg);
+    cursor: pointer;
+    left: 0;
+    border: none;
+    position: absolute;
+    opacity: 30%;
+    width: 70px;
+    height: 70px;
+    background: url(img/button.svg) no-repeat center center;
+}
+
+/* profile */
+
+#skill{
+    height: 980px;
+    background: black;
+}
+
+#skill h1{
+    text-align: center;
+    font-family: 'NanumSquare', sans-serif;
+    padding-top: 120px;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+}
+
+.skill_duru{
+    width: 90%;
+    height: 500px;
+    /* border: 1px solid skyblue; */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+.skill_duru ul{
+    margin: 0;
+    padding: 0;
+}
+
+.skill_duru ul li:nth-child(3){
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+    vertical-align: top;
+    position: relative;
+}
+
+.skill_duru ul li:nth-child(n+1):nth-child(-n+2){
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+    /* border: 1px solid red; */
+    vertical-align: top;
+    margin-right: 60px;
+    position: relative;
+}
+
+
+.skill1{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: url(img/duru.svg) no-repeat;
+    z-index: 30;
+}
+
+.skill1_box{
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 350px;
+    background: url(img/paper.svg) no-repeat;
+    z-index: 2;
+    top: 85px;
+    left: 5px;
+}
+
+.skill1_box .poto_p1{
+    font-size: 20px;
+    font-family: 'NanumSquare', sans-serif;
+    padding-top: 120px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-65%);
+}
+
+.skill1_box .poto_p2{
+    font-family: 'NanumSquare', sans-serif;
+    position: absolute;
+    top: 200px;
+    font-weight: 300;
+    width: 180px;
+    left: 40px;
+    /* border: 1px solid red; */
+    line-height: 25px;
+}
+
+
+.skill1_art{
+    z-index: 200;
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 120px;
+    transform: translateX(-50%)
+}
+
+.skill1_art .sk_art{
+    left: 0;
+    position: absolute;
+    z-index: 199;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url(img/photoshop.png) no-repeat center;
+    background-size: cover;
+    /* position: absolute; */
+    /* display: block; */
+    /* background-size: 20%; */
+}
+
+.skill2{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background: url(img/duru.svg) no-repeat;
+}
+
+.skill1_art .sk2_art{
+    left: 0;
+    position: absolute;
+    z-index: 199;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url(img/illustrator.png) no-repeat center;
+    background-size: cover;
+    /* position: absolute; */
+    /* display: block; */
+    /* background-size: 20%; */
+}
+
+.skill2_box .ilu_p1{
+    font-size: 20px;
+    font-family: 'NanumSquare', sans-serif;
+    padding-top: 120px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-65%);
+}
+
+.skill2_box .ilu_p2{
+    font-family: 'NanumSquare', sans-serif;
+    position: absolute;
+    top: 200px;
+    font-weight: 300;
+    width: 180px;
+    left: 40px;
+    /* border: 1px solid red; */
+    line-height: 25px;
+}
+
+
+.skill2_box{
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 350px;
+    background: url(img/paper.svg) no-repeat;
+    z-index: 2;
+    top: 85px;
+    left: 5px;
+}
+
+.skill3{
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: url(img/duru.svg) no-repeat;
+}
+
+.skill1_art .sk3_art{
+    left: 0;
+    position: absolute;
+    z-index: 199;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url(img/logo3.svg) no-repeat center;
+    background-size: cover;
+}
+
+.skill3_box .clip_p1{
+    font-size: 20px;
+    font-family: 'NanumSquare', sans-serif;
+    padding-top: 120px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-65%);
+}
+
+.skill3_box .clip_p2{
+    font-family: 'NanumSquare', sans-serif;
+    position: absolute;
+    top: 200px;
+    font-weight: 300;
+    width: 180px;
+    left: 40px;
+    /* border: 1px solid red; */
+    line-height: 25px;
+}
+
+
+
+.skill3_box{
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 350px;
+    background: url(img/paper.svg) no-repeat;
+    z-index: 2;
+    top: 85px;
+    left: 5px;
+}
+
+.skill_diverse{
+    text-align: center;
+    margin-top: 30px;
+    background: white;
+    width: 60%;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.skill_diverse p{
+    padding-top: 25px;
+    font-family: 'NanumSquare', sans-serif;
+    line-height: 25px;
+}
+
+/* skill */
+
+#work{
+    height: 1200px;
+}
+
+
+#work h1{
+    text-align: center;
+    font-family: 'NanumSquare', sans-serif;
+    padding-top: 120px;
+    font-weight: 800;
+    font-size: 40px;
+    /* color: white; */
+}
+
+
+#work > p{
+    font-family: 'NanumSquare', sans-serif;
+    color: #444;
+    text-align: center;
+}
+
+#work .work_all{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 100px;
+}
+
+#work .work_all ul li{
+    overflow: hidden;
+    list-style: none;
+    /* margin: 0; */
+    /* padding: 30px 0 0 0; */
+    display: inline-block;
+    text-align: center;
+    /* background: rgb(53, 68, 73); */
+    width: 350px;
+    height: 350px;
+    margin: 0 20px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 20px 8px #ddd;
+    font-family: 'NanumSquare', sans-serif;
+    transition: filter .5s;
+}
+
+#work .work_all ul li:hover{
+    filter: grayscale(20);
+    /* filter: brightness(80%); */
+    /* filter:opacity(60%); */
+    /* filter: blur(2px); */
+}
+
+/* #work .work_all ul li:hover h2{
+    color: orange;
+} */
+
+#work .work_all ul li h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#work .work_all ul{
+    /* margin: 0; */
+    padding: 0;
+}
+
+#work .work_all ul a{
+    display: inline-block;
+    width: 350px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#work .work_all .work1 a span{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    background: url('img/sum.PNG');
+    background-size: cover;
+    transform: translateY(-80px);
+}
+
+#work .work_all p{
+    font-size: 14px;
+    color: #555;
+    line-height: 22px;
+    margin-top: 0;
+}
+
+#work .work_all .work2 a span{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    background: url('img/sum2.PNG');
+    background-size: cover;
+    transform: translateY(-80px);
+}
+
+
+
+#work .ul2{
+    margin-top: 60px;
+}
+
+#work .work_all .work3 a span{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    background: url('img/sum3.PNG');
+    background-size: cover;
+    transform: translateY(-80px);
+}
+
+
+#work .work_all .work4 a span{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    background: url('img/sum4.PNG');
+    background-size: cover;
+    transform: translateY(0px);
+}
+
+
+
+/* footer */
+
+footer{
+    background: #ccc;
+    height: 120px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 30px;
+    line-height: 30px;
+    /* border: 1px solid red; */
+    font-family: 'NanumSquare', sans-serif;
+}
