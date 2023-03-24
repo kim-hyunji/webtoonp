@@ -210,6 +210,11 @@ img{
     margin-top: 28px;
 }
 
+.profile_text1_title li:nth-child(5) {
+    margin-top: 28px;
+}
+
+
 .profile_text1_explan{
     /* border: 1px solid blue; */
 }
