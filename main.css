@@ -181,7 +181,7 @@ img{
     line-height: 30px;
     vertical-align: top;
     display: inline-block;
-    width: 150px;
+    width: 160px;
     list-style: none;
     font-family: 'NanumSquare', sans-serif;
 }
@@ -208,10 +208,7 @@ img{
 
 .profile_text1_title li:nth-child(4){
     margin-top: 30px;
-}
-
-.profile_text1_title li:nth-child(5) {
-    margin-top: 78px;
+    margin-bottom: 60px;
 }
 
 
